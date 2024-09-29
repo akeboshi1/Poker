@@ -5,12 +5,13 @@ body {
 .container {
   display: flex;
   justify-content: center;
+  background-color: black;
 }
 .card-grid {
   display: grid;
   margin: 2rem auto;
-  grid-template-columns: repeat(8, 120px);
-  grid-template-rows: repeat(4, auto);
+  grid-template-columns: repeat(4, 120px);
+  grid-template-rows: repeat(8, auto);
   row-gap: 10px;
   overflow: hidden;
   width: 100%;
